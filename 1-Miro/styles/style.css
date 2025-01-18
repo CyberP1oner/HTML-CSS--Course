@@ -1,5 +1,9 @@
-#heroButton{
+#heroButton {
   background-color: #4262ff;
   color: #FFF;
 }
 
+.link {
+  color: #4262ff;
+  text-decoration: underline;
+}
