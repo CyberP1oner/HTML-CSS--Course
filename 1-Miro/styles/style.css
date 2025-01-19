@@ -3,8 +3,34 @@
   color: #FFF;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .link {
   color: #4262ff;
   text-decoration: underline;
 }
+
+h1 {
+  line-height: 56px;
+  font-size: 48px;
+  text-align: left;
+  font-weight: 400;
+}
+
+p{
+  line-height: 18px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.firstPicture{
+  float: right; /* Перемещает картинку в правую часть страницы */
+  text-align: right;
+}
+
+
+
+
 
