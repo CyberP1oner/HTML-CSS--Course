@@ -30,6 +30,21 @@ p{
   text-align: right;
 }
 
+heroText{
+  color: #050038;
+}
+
+.sectionText{
+  color: #696688;
+}
+
+header a {
+  line-height: 24px;
+  font-weight: 400;
+  color: #050038;
+  font-size: 16px;
+  text-decoration: none;
+}
 
 
 
