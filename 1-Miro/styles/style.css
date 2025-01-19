@@ -3,6 +3,26 @@
   color: #FFF;
 }
 
+#heroButton:hover {
+  background-color: #122db6;
+}
+
+#heroButton:active {
+  background-color: #061b85;
+}
+
+.heroForm input:focus {
+  background-color: aliceblue;
+}
+
+ul li:first-child {
+  color: #4536f0;
+}
+
+ul li:last-child {
+  color: #e01b1b;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -12,11 +32,16 @@ body {
   text-decoration: underline;
 }
 
-h1 {
+.link:hover {
+  color: #2544e0;
+}
+
+h1, h2 {
   line-height: 56px;
   font-size: 48px;
   text-align: left;
   font-weight: 400;
+  color: #050038;
 }
 
 p{

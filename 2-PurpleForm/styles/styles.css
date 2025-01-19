@@ -1,3 +1,36 @@
+main {
+  background-color: #1e1f29;
+}
+
+h1 {
+  color: #fafafa;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Andale Mono', monospace;
+}
+
+input, textarea, select {
+  background: #2e2d3d;
+  color: #fafafa;
+}
+
+label {
+  color: #afb2bf;
+}
+
+input:invalid {
+  background: red;
+}
+
+input:valid {
+  background: green;
+}
+
+button {
+  background-color: #6c38cc;
+  color: #fafafa;
+}
+
 input[type="email"] {
   background-color: red;
 }
