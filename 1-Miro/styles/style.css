@@ -15,14 +15,6 @@
   background-color: aliceblue;
 }
 
-ul li:first-child {
-  color: #4536f0;
-}
-
-ul li:last-child {
-  color: #e01b1b;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
 }
