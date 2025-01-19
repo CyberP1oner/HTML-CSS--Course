@@ -1,3 +1,8 @@
+*::selection {
+  background-color: #4262ff;
+}
+
+
 #heroButton {
   background-color: #4262ff;
   color: #FFF;
@@ -14,6 +19,17 @@
 .heroForm input:focus {
   background-color: aliceblue;
 }
+
+a::after{
+  color: red;
+  content: " (ссылка)";
+}
+
+a::before{
+  color: red;
+  content: " (!)";
+}
+
 
 body {
   font-family: 'Roboto', sans-serif;
