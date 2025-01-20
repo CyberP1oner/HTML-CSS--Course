@@ -76,11 +76,15 @@ nav ul{
   list-style: none;
 }
 
-
-.sectionList{
-  list-style-type: none;
-  list-style-image: url(../img/check.svg);
+.sectionList {
+  list-style: none;
 }
+
+.sectionList li::marker {
+  content: url('/1-Miro/img/check.svg');
+  }
+
+
 
 
 
