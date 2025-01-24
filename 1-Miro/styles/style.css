@@ -16,6 +16,11 @@
   background-color: #061b85;
 }
 
+#heroButton.test.test2 {
+  background-color: #4262ff;
+
+}
+
 .heroForm input:focus {
   background-color: aliceblue;
 }
