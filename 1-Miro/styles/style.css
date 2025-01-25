@@ -86,23 +86,13 @@ nav ul{
   }
 
 .experimentBlue {
-    background: blue;
-    width: 400px;
-    height: 300px;
-    color: white
+  background: #071766;
+  width: 400px;
+  height: 300px;
+  color: white;
+  padding: 10px 20px 50px 30px; 
   }
 
-.border1 {
-  /* border-width: 5px;
-  border-style: solid;
-  border-color: black; */
-  box-sizing: border-box;
-
-  border: 5px dashed black;
-
-  border-left: 10px solid red;
-  border-radius: 30px;
-}
 
 
 
