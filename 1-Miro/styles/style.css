@@ -16,10 +16,6 @@
   background-color: #061b85;
 }
 
-#heroButton.test.test2 {
-  background-color: #4262ff;
-
-}
 
 .heroForm input:focus {
   background-color: aliceblue;
@@ -87,6 +83,17 @@ nav ul{
 
 .sectionList li::marker {
   content: url('/1-Miro/img/check.svg');
+  }
+
+.experimentRed {
+    background: red;
+    width: 400px;
+  }
+.experimentBlue {
+    background: blue;
+    width: 400px;
+    height: 300px;
+    color: white
   }
 
 
