@@ -85,16 +85,24 @@ nav ul{
   content: url('/1-Miro/img/check.svg');
   }
 
-.experimentRed {
-    background: red;
-    width: 400px;
-  }
 .experimentBlue {
     background: blue;
     width: 400px;
     height: 300px;
     color: white
   }
+
+.border1 {
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: black; */
+  box-sizing: border-box;
+
+  border: 5px dashed black;
+
+  border-left: 10px solid red;
+  border-radius: 30px;
+}
 
 
 
