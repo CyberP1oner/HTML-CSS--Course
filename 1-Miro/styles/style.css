@@ -136,6 +136,52 @@ body {
   margin: 10px auto;
   }
 
+.divR {
+    background: red;
+    display: inline;
+  }
+
+.divG {
+    background: green;
+    display: inline;
+  }
+
+.divB {
+    background: blue;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+  }
+
+.spanR {
+    background: red;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+  }
+
+.spanG {
+    background: green;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+  }
+
+.spanB {
+  background: blue;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  }
+
 
 
 
