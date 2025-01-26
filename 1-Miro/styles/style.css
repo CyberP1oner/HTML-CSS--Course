@@ -136,51 +136,69 @@ body {
   margin: 10px auto;
   }
 
-.divR {
+
+
+  .sticky .cl2 {
+    position: sticky;
+    top: 50px;
+    left: 50px;
+  }
+
+.cl1 {
     background: red;
-    display: inline;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
   }
 
-.divG {
+.cl2 {
     background: green;
-    display: inline;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
   }
 
-.divB {
+.cl3 {
     background: blue;
     display: inline-block;
     padding: 20px;
     margin: 20px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
   }
 
-.spanR {
-    background: red;
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    padding: 20px;
-    margin: 20px;
-  }
+.static .cl2 {
+  position: static;
+}
 
-.spanG {
-    background: green;
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    padding: 20px;
-    margin: 20px;
-  }
+.relative .cl2 {
+  position: relative;
+  top: 50px;
+  left: -50px;
+}
 
-.spanB {
-  background: blue;
-  display: inline-block;
-  padding: 20px;
-  margin: 20px;
-  width: 200px;
-  height: 200px;
-  }
+.absolute {
+  position: relative;
+}
+
+.absolute .cl2 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.fixed .cl2 {
+  /* position: fixed; */
+  top: 50px;
+  left: 50px;
+}
+
+
+
 
 
 
