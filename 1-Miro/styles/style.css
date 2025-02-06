@@ -65,11 +65,13 @@ footer a {
 
 #heroButton {
   background-color: #4262ff;
+  transition: background-color 1s, border-radius 2s;
   color: #FFF;
 }
 
 #heroButton:hover {
   background-color: #122db6;
+  border-radius: 50%;
 }
 
 #heroButton:active {
