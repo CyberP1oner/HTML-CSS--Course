@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular.ttf");
-}
-
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -14,7 +9,6 @@ body {
 
 h1 {
   margin: 0 0 17px 0;
-  text-align: justify;
 }
 
 h2{
