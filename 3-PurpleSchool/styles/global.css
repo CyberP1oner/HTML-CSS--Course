@@ -1,44 +1,12 @@
-/* 
-Б - Блок
-Э - Элемент блока
-М - Модификатор блока 
-*/
-
-body {
-  background: #16171d;
-  --color-primary: #6c3bcc;
+:root {
+  --color-primary: #6c3bcc
   --space-10: 10px;
 }
 
-.section-header {
-
+html {
+  --color-primary: green;
 }
 
-.section-header__top {
-
-}
-
-.section-header__h2 {
-
-}
-
-.button {
-  padding: 16px 32px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 120%;
-  border-radius: 10px;
-  background: none;
-  border: none;
-}
-
-.button_primary {
-  background: var(--color-primary, red);
-  /* background: #6c3bcc; */
-  color: white;
-}
-
-.button_ghost {
-  border: 1px solid #4d5064;
-  color: white;
+body {
+  background: #16171d;
 }
