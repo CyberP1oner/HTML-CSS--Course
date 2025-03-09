@@ -33,3 +33,9 @@
 .button_ghost:hover {
   background: var(--color-bg-medium);
 }
+
+@media (max-width: 640px) {
+  .button {
+    padding: 16px 32px;
+  }
+}

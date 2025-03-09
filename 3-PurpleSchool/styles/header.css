@@ -33,17 +33,27 @@
   border: none;
 }
 
+
 @media (max-width: 960px) {
-  .header__logo{
-    max-width: 174px;
-  }
-  
   .header__login {
     display: none;
   }
-
+  
   .header__mobile-menu-button {
     display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  .header__wrapper {
+    padding: 30px 24px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .header__logo{
+    max-width: 174px;
   }
 }
 
